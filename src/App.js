@@ -5,7 +5,7 @@ import DisplayData from "./components/DisplayData";
 function App() {
   const client = new ApolloClient({
     cache: new InMemoryCache(),
-    uri: "https://reactgraphqlbackend.herokuapp.com/",
+    uri: "https://reactgraphqlbackend.herokuapp.com/graphql",
   });
   return (
     <div className="App">
